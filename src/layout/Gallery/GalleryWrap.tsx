@@ -1,13 +1,13 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import styled from '@emotion/styled';
 import PhotoGallery from './PhotoGallery.tsx';
 
 const GalleryWrap = () => {
-  const [isMoreView, setIsMoreView] = useState(true);
-
-  const onClickImageMoreViewButton = () => {
-    setIsMoreView(!isMoreView);
-  };
+  // const [isMoreView, setIsMoreView] = useState(true);
+  const isMoreView =true
+  // const onClickImageMoreViewButton = () => {
+  //   setIsMoreView(!isMoreView);
+  // };
 
   return (
     <ContentsWrap>
@@ -54,13 +54,13 @@ const WhiteGradientOverlay = styled.div`
   );
 `;
 
-const PlusButton = styled.div`
-  width: 100%;
-  box-sizing: border-box;
-  padding: 6px 12px;
-  font-size: 1rem;
-  align-items: center;
-  border-radius: 4px;
-  border: 1px solid #dfdfdf;
-  cursor: pointer;
-`;
+// const PlusButton = styled.div`
+//   width: 100%;
+//   box-sizing: border-box;
+//   padding: 6px 12px;
+//   font-size: 1rem;
+//   align-items: center;
+//   border-radius: 4px;
+//   border: 1px solid #dfdfdf;
+//   cursor: pointer;
+// `;
