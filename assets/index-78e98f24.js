@@ -87,7 +87,8 @@ Error generating stack: `+o.message+`
   @media screen and (min-width: 500px) {
       width: 500px;
   }
-`,C_={title:"강현이의 ✨첫돌✨입니다!",message:`3.3kg로 태어난 강현이.
+`,C_={title:`강현이 
+✨첫돌✨입니다!`,message:`3.3kg로 태어난 강현이.
 하루에 1000ml먹으며 
 건강하게 자랐답니다.
 ✨어느덧 첫돌!✨ 
